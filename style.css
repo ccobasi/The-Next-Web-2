@@ -547,12 +547,6 @@ h4,
   margin-bottom: 25px;
 }
 
-.footer-links-social li {
-  display: inline-block;
-  margin: 0 12px;
-  color: #aaa;
-}
-
 .footer-links-social li a {
   background: grey;
   border-radius: 50%;
