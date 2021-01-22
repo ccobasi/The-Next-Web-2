@@ -604,6 +604,30 @@ h4,
   color: rgb(170, 170, 170);
 }
 
+@media (max-width: 1300px) {
+  .grid-container-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+    grid-gap: 10px;
+  }
+
+  .grid-container-3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+    grid-gap: 10px;
+  }
+
+  .grid-container-4{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    grid-gap: 10px;
+  }
+  }
+}
+
 @media (max-width: 1024px) {
   .main-section {
     margin: 0 auto;
