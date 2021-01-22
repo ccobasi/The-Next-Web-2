@@ -691,6 +691,35 @@ h4,
     max-width: 700px;
   }
 
+  .navbar-1024px-lef {
+    display: none;
+  }
+
+  .navbar-768px {
+    background: white;
+    visibility: visible;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+    position: fixed;
+    height: 58px;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+  }
+
+  .navbar-768px-left {
+    float: left;
+    width: 106px;
+    background: black;
+  }
+
+  .navbar-768px-left img {
+    max-width: 100%;
+    padding: 16px 20px;
+  }
+
   .grid-container,
   .grid-container-2,
   .grid-container-3,
@@ -759,20 +788,6 @@ h4,
     display: none;
   }
 
-  .navbar-768px {
-    background: white;
-    visibility: visible;
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
-    position: fixed;
-    height: 48px;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 10;
-  }
-
   .navbar-768px-left:hover {
     background-image: url(images/home-1.gif);
     background-position: 50%;
@@ -825,85 +840,5 @@ h4,
     align-items: center;
     text-align: center;
     vertical-align: middle;
-  }
-}
-
-@media (max-width: 1200px) {
-  .main-section {
-    margin: 0 auto;
-    max-width: 800px;
-  }
-
-  .grid-container-2,
-  .grid-container-3 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 10px;
-    grid-gap: 10px;
-  }
-
-  .grid-container-4 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 10px;
-    grid-gap: 10px;
-  }
-
-  .white-top-bar,
-  .black-top-bar {
-    visibility: visible;
-    width: auto;
-    margin-left: 106px;
-  }
-
-  .hero h1 {
-    bottom: 8px;
-    left: 16px;
-    z-index: 1;
-    font-size: 20px;
-  }
-
-  .hero-image {
-    transition: background-color 0.4s ease;
-    z-index: 2;
-  }
-
-  .black-top-bar ul li,
-  .white-top-bar ul li {
-    font-size: 12px;
-  }
-
-  .navbar-1024px-left {
-    display: block;
-    background: black;
-    position: absolute;
-    width: 106px;
-    height: 75px;
-    z-index: 10;
-  }
-
-  .navbar-1024px-left img {
-    margin-top: 30px;
-    margin-left: 20px;
-    width: 66px;
-    align-self: center;
-    justify-self: center;
-    vertical-align: middle;
-  }
-
-  .navbar-1024px-left:hover {
-    background-image: url(images/home-1.gif);
-    background-position: 50%;
-  }
-
-  .spares {
-    visibility: hidden;
-  }
-
-  .navbar-announcement-768,
-  .header-article-logo,
-  .header-article-gradient,
-  .funding-4 {
-    display: none;
   }
 }
