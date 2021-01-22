@@ -464,3 +464,14 @@ h4,
   font-weight: 400;
   line-height: 1.2em;
 }
+
+.old-price {
+  text-decoration: line-through;
+  font-size: 10px;
+}
+
+.deal-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+}
