@@ -102,6 +102,12 @@ main {
   cursor: pointer;
 }
 
+.footer-links-social li {
+  display: inline-block;
+  margin: 0 12px;
+  color: #aaa;
+}
+
 .black-top-bar ul {
   list-style: none;
   padding-inline-start: 0;
