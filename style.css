@@ -486,6 +486,7 @@ h4,
   background: black;
   margin-top: 20px;
   width: 100%;
+  text-align: center;
 }
 
 .footer-menu {
@@ -610,6 +611,7 @@ h4,
   font-family: Helvetica, Arial, sans-serif;
   line-height: 19.5px;
   color: rgb(170, 170, 170);
+  text-align: center;
 }
 
 @media (max-width: 1600px) {
