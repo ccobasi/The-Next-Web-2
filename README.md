@@ -20,7 +20,11 @@ Skills Revived & Learned:
 - Position, Flex, Grid, Floats, RWD
 - Font, Image, Page Size manipulation with new CSS3 features.
 
+
 ![screenshot](./img/site-img-readme.png)
+
+![screenshot](./img/site-img-readme.png)
+
 
 ## Built With
 
@@ -30,7 +34,11 @@ Skills Revived & Learned:
 
 ## Live Demo
 
+
 [Live Demo Link](https://ccobasi.github.io/The-Next-Web-2/)
+
+[Live Demo Link](https://ccobasi.github.io/The-Next-Web-2/)
+
 
 ## Author
 
