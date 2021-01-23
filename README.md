@@ -22,7 +22,7 @@ Skills Revived & Learned:
 - Position, Flex, Grid, Floats, RWD
 - Font, Image, Page Size manipulation with new CSS3 features.
 
-![screenshot](./assets/*.png)
+![screenshot](./img/site-img-readme.png)
 
 ## Built With
 
