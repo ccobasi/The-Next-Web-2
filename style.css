@@ -311,7 +311,7 @@ main {
   background: #f42;
   color: #fff;
   padding: 10.6666666667px 16px 10.6666666667px 84px;
-  margin: 0 !important;
+  margin: 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
