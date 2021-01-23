@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Project Name: The Next Web - Clone
 
 ## Week 2 Solo Project
