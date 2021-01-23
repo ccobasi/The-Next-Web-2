@@ -457,6 +457,14 @@ main {
 }
 
 h4,
+.float-container1 h3,
+.float-container2 h3,
+.float-container3 h3 {
+  color: #f42;
+  float: left;
+}
+
+h4,
 .text-img h4 {
   max-width: 220px;
   font-size: 13px;
@@ -464,14 +472,6 @@ h4,
   line-height: 1.25;
   padding-top: 2px;
   margin: 5px;
-}
-
-h4,
-.float-container1 h3,
-.float-container2 h3,
-.float-container3 h3 {
-  color: #f42;
-  float: left;
 }
 
 .text-img h3 {
