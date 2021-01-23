@@ -622,6 +622,13 @@ h4,
 }
 
 @media (max-width: 2600px) {
+  .black-top-bar {
+    width: 100%;
+    background: #131313;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   .grid-container-2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
